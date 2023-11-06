@@ -10,8 +10,19 @@
 }
 #sub-heading{
     color: dodgerblue;
+    background-color:wheat
 }
 
 #summ-para{
     text-align:justify;
+}
+h1[id="Candidate_Name"]{
+    font-family: 'Caveat', cursive;
+    font-family: 'Playpen Sans', cursive;
+    font-size: 50px;
+    color:tomato;
+    background-color:aquamarine;
+}
+body{
+    background-color:beige;
 }
