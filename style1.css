@@ -12,11 +12,11 @@
 }
 
 :root{ 
-    --bg-color: #081b29;
+    --bg-color: #241941;
     --second-bg-color: #112e42;
     --text-color: #ededed;
     --main-color: #00abf0;
-    --hover-color: #F9D1B7;
+    --hover-color: #9d70c6;
 }
 
 html{
@@ -81,6 +81,9 @@ section{
     display: flex;
     align-items: center;
     pad: 0 9%;
+    background: url('/Assest/Imaages/cti-banner.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .home-content{
@@ -102,7 +105,7 @@ section{
     font-size: 3.2rem;
     font-weight: 700;
     color: transparent;
-    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: var(--hover-color);  
 }
 
@@ -196,6 +199,22 @@ section{
 
 .social-page a:hover::before{
     width: 100%;
+}
+
+.home-img-hov{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45%;
+    height: 100%;
+    background: transparent
+    border: 2px solid red;
+    transition: 3s;
+}
+
+.home-img-hov:hover{
+    background-color: var(--bg-color);
+    opacity: 0.9;
 }
 
 
