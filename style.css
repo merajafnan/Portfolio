@@ -81,7 +81,7 @@ section{
     display: flex;
     align-items: center;
     pad: 0 9%;
-    background: url('/Assest/Imaages/cti-banner.jpg') no-repeat;
+    background: url('/Assest/Imaages/background.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
