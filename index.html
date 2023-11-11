@@ -5,61 +5,116 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Playpen+Sans:wght@600&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <h1 id="Candidate_Name">MERAJ HASSAN</h1>
-    <img src="./Assest/Imaages/Picture 1.jpg" alt="My Image" height="180">
-    <hr>
 
-    <h2 id="sub-heading">SUMMARY</h2>
-    <p id="summ-para">5 YEARS OF IT INDUSTRY EXPERIENCE AS A SOFTWARE ENGINEER, WITH CONFIGURATION MANAGEMENT, BUILD, RELEASE MANAGEMENT AND GIT ON LINUX/MAC. KNOWLEDGE OF ANSIBLE AS A CONFIGURATION MANAGEMENT TOOL, TO AUTOMATE REPETITIVE TASKS AND PROACTIVELY MANAGE CHANGE. PROFICIENT IN THE CREATION AND MAINTENANCE OF AUTOMATED NETWORK PROTOCOL TEST SCRIPTS USING ROBOT FW AND PYTHON.</p>
-    <hr>
-    
-    <h2 id="sub-heading">TECH - EXPERIENCE</h2>
-        <h3 id="tech-exp">ENVIRONMENT -</h3>
-            <ul>
-                LINUX / MAC / WINDOWS
-            </ul>
-        <h3 id="tech-exp">NETWORK PROTOCOL -</h3>
-            <ul>
-                <li>SWITCHING PROTOCOLS – VLAN / VTP / STP / RSTP / MSTP / ETHERCHANNEL / IGMP</li>
-                <li>ROUTING PROTOCOLS – BGP / MPLS - TE / ISIS / RIP / EIGRP / OSPF</li>
-                <li>VPN – L3 VPN / L2 VPN - ATOM & L2TP.V3 / IPSEC / GRE / DMVPN</li>
-                <li>OTHER NETWORKING PROTOCOLS – QOS / ACL / DHCP / DNS / NAT / BFD / HSRP / VRRP / GLBP/ ROUTE MAP / ROUTE REDISTRIBUTION</li>
-            </ul>
-        <h3 id="tech-exp">NETWORK DEVICES -</h3>
-            <ul>
-                <li>CISCO ROUTERS - ISR 1K/4K, ASR 1K , 920 0/I</li>
-                <li>JUNIPER ROUTERS - MX 480/960/2010, PTX 1K</li>
-                <li>CISCO SWITCHES - 1K/9K</li>
-                <li>TRAFFIC GENERATOR - SPIRENT / IXIA</li>
-            </ul>
-        <h3 id="tech-exp">DEVOPS TOOLS -</h3>
-            <ul>
-                <li>DOCKER / KUBERNETES / GIT / ANSIBLE / CI|CD - JENKINS</li>
-            </ul>
-        <h3 id="tech-exp">CLOUD -</h3>
-            <ul>
-                <li>AWS - EC2 / ELB / VPC / AUTOSCALING / S3 / ROUTE 53</li>
-            </ul>
-        <h3 id="tech-exp">PROGRAMMING LANGUAGE -</h3>
-            <ul>
-                <li>PYTHON / ROBOT FW / TOBY / HTML</li>
-            </ul>
-        <h3 id="tech-exp">TESTING EXPERIENCE -</h3>
-            <ul>
-                <li>COMPLETE STLC</li>
-            </ul>
-        <h3 id="tech-exp">VIRTUALIZATION TOOLS -</h3>
-            <ul>
-                <li>VMWARE / JUNIPER IN HOUSE VIRTUALIZATION TOOL AND DEVICES</li>
-            </ul>
-    
-    <hr>
-    <h2 id="profile-progress">Profile Building in Progress .......</h2>
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">Meraj.</a>
 
+        <div class='bx bx-menu' id="menu-icon"></div>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#experience">Experience</a>
+            <a href="#education">Education</a>
+            <a href="#conatct">Contact</a>
+        </nav>
+    </header>
+
+
+    <!-- Home Section Design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi I Am <span>Meraj Hassan</span></h1>
+            <div class="txt-animate">
+                <h3>Software Engineer</h3>
+            </div>
+            <p>
+                5 Years of it industry Experience as a Software Engineer, with configuration management, build, release management and git on LINUX/MAC. Knowledge of Ansible as a configuration management tool, to Automate repetitive tasks and proactively manage change. Proficient in the creation and maintenance of Automated Network Protocol Test Scripts using Robot FW / Ansible / Python-Netmiko.
+            </p>
+            <div class="btn-box">
+                <a href="#" class="btn">Hire Me</a>
+                <a href="#" class="btn">Let's Talk</a>
+            </div>
+        </div>
+
+        <div class="social-page">
+            <a href="https://github.com/merajafnan"><i class='bx bxl-github'></i></a>
+            <a href="https://www.linkedin.com/in/merajafnan/"><i class='bx bxl-linkedin' ></i></a>
+
+        </div>
+
+        <div class="home-img-hov"></div>
+    </section>
+
+
+    <!-- About Section Design -->
+    <section class="about" id="about">
+        <h2 class="about-heading">About <Span>Me</Span> </h2>
+
+        <div class="profile-image">
+            <img src="./Assest/Imaages/Picture 1.jpg" alt="">
+            <span class="circle-spin"></span>
+        </div>
+
+        <div class="about-content">
+            <h3>Software Engineer</h3>
+            <p>
+                5 Years of it industry Experience as a Software Engineer, with configuration management, build, release management and git on LINUX/MAC. Knowledge of Ansible as a configuration management tool, to Automate repetitive tasks and proactively manage change. Proficient in the creation and maintenance of Automated Network Protocol Test Scripts using Robot FW / Ansible / Python-Netmiko.
+            </p>
+            <div class="btn-box btn">
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- Education Section Design -->
+    <section class="education" id="education">
+        <h2 class="education-heading">
+            My <span>Journey</span>
+        </h2>
+        <div class="education-row">
+            <div class="education-column">
+                <h3 class="title">Education</h3>
+                
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content"><i class='bx bx-calendar'></i>2013 to 2017</div>
+                            <a href="https://cgu-odisha.ac.in/">B.Tech - CV Raman College Of Engineering</a>
+                            <p>Electronics and Telecommunications</p>
+                    </div>
+                </div>
+                
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content"><i class='bx bx-calendar'></i>2012 to 2013</div>
+                        <a href="https://bishopwestcottboysschool.com/">12th - Bishop Westcott Boys School</a>
+                        <p>Intermediate in Science</p>
+                    </div>
+                </div>
+
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content"><i class='bx bx-calendar'></i>2009 to 2010</div>
+                        <a href="https://bishopschoolranchi.com/">12th - Bishop's School</a>
+                        <p>Matriculation in Science</p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+    </section>
+    
+    <script src="./script.js"></script>
 </body>
 </html>
