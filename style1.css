@@ -16,6 +16,7 @@
     --second-bg-color: #112e42;
     --text-color: #ededed;
     --main-color: #00abf0;
+    --hover-color: #F9D1B7;
 }
 
 html{
@@ -101,8 +102,8 @@ section{
     font-size: 3.2rem;
     font-weight: 700;
     color: transparent;
-    -webkit-text-stroke-width: 0.7px;
-    -webkit-text-stroke-color: var(--main-color);  
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--hover-color);  
 }
 
 .home-content p{
@@ -143,7 +144,7 @@ section{
     left: 0; 
     width: 0;
     height: 100%;
-    background: #F9D1B7;
+    background: var(--hover-color);
     z-index: -1;
     transition: .3s;
 }
@@ -155,6 +156,48 @@ section{
 /* .btn-box .btn:hover{
     color: var(--main-color);
 } */
+
+.social-page{
+    position: absolute;
+    display: flex;
+    bottom: 2rem;
+    width: 10rem;
+    justify-content: space-between;
+
+}
+
+.social-page a{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border-radius: 50%;
+    border: 0.2rem solid var(--main-color);
+    font-size: 25px;
+    color: var(--main-color);
+    z-index: 1;
+    overflow: hidden;
+}
+
+.social-page a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: var(--hover-color);
+    z-index: -1;
+    transition: 0.3s;
+}
+
+.social-page a:hover::before{
+    width: 100%;
+}
+
 
 
 
